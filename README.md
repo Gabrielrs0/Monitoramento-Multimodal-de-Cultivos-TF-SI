@@ -3,6 +3,14 @@
 Trabalho Final de **Sistemas de Informação – 2026/2** (Universidade de Brasília).
 Aplicação das fases do processo de engenharia de requisitos a um robô que percorre uma área agrícola e monitora alvos georreferenciados, com apoio de um drone.
 
+## Grupo
+ 
+| Integrante | Matrícula |
+|---|---|
+| Gabriel Ribeiro da Silva | 222005401 |
+| Kaio Xavier Silva |232004005|
+| Lucas Galvão Wosiach | 190128828  |
+
 ## Fases e modelos
 
 | Fase | Modelos |
