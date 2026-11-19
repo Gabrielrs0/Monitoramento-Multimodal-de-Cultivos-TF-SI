@@ -1,0 +1,409 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="ghMu3xh7Ndp25mIOpYuu">
+    <mxGraphModel dx="1178" dy="1374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-32" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="440" width="600" x="20" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ba6N8Kydh0K5UVhQg-y9-3" parent="RFl-qjHHv4bRQcML9S2N-32" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#49617D,#97A6B5);strokeColor=#93C5FD;" value="" vertex="1">
+          <mxGeometry height="110" width="230" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ba6N8Kydh0K5UVhQg-y9-4" parent="RFl-qjHHv4bRQcML9S2N-32" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=light-dark(transparent,#A9BBCC);align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;[Contexto]&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;O robô está na base de recarga com a bateria em 100%. O agrônomo enviou o plano de monitoramento pro controlador da missão" vertex="1">
+          <mxGeometry height="110" width="230" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ba6N8Kydh0K5UVhQg-y9-5" parent="RFl-qjHHv4bRQcML9S2N-32" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6A917D;strokeColor=#86EFAC;" value="" vertex="1">
+          <mxGeometry height="110" width="170" x="230" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-1" parent="RFl-qjHHv4bRQcML9S2N-32" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;[Atores]&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;SCM, controlador da missão, agrônomo, drone, bateria, GPS, motores, sensores de coleta, sensores de obstáculo,base de recarga&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="170" x="230" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-31" parent="RFl-qjHHv4bRQcML9S2N-32" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6A917D;strokeColor=#86EFAC;" value="" vertex="1">
+          <mxGeometry height="110" width="200" x="400" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ba6N8Kydh0K5UVhQg-y9-1" parent="RFl-qjHHv4bRQcML9S2N-32" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#2B579A);" value="" vertex="1">
+          <mxGeometry height="40" width="600" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-2" parent="RFl-qjHHv4bRQcML9S2N-32" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-weight: bold; font-size: 13px;&quot;&gt;[Objetos do mundo]&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Configuração e lista de alvos, topologia do local, nível de carga, posição atual, comando de movimento, obstáculo detectado, comando de coleta, dados de coleta, alertas, dados dos alvos&lt;/font&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="110" width="200" x="400" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-4" parent="RFl-qjHHv4bRQcML9S2N-32" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FAFAFA,#FFFFFF);strokeColor=light-dark(#000000,#D1D5DB);" value="" vertex="1">
+          <mxGeometry height="290" width="600" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-14" parent="RFl-qjHHv4bRQcML9S2N-32" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="O controlador da missão envia a configuração e lista de alvos pro SCM" vertex="1">
+          <mxGeometry height="30" width="415" x="40" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-15" parent="RFl-qjHHv4bRQcML9S2N-32" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="O SCM consulta o nível de carga da bateria, confirma e transmite alertas de início de rota pro controlador da missão" vertex="1">
+          <mxGeometry height="30" width="560" x="40" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-16" parent="RFl-qjHHv4bRQcML9S2N-32" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="O SCM consulta a posição atual no GPS e envia comandos de movimento pro motor, direcionando o robô pro alvo" vertex="1">
+          <mxGeometry height="30" width="560" x="40" y="242" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-17" parent="RFl-qjHHv4bRQcML9S2N-32" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="O SCM lê os sensores de obstáculo e confirma que o caminho até o alvo está livre" vertex="1">
+          <mxGeometry height="30" width="560" x="40" y="274" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-18" parent="RFl-qjHHv4bRQcML9S2N-32" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="O SCM envia o comando de coleta pros sensores de coleta e recebe os dados de coleta com qualidade boa" vertex="1">
+          <mxGeometry height="30" width="560" x="40" y="306" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-19" parent="RFl-qjHHv4bRQcML9S2N-32" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="O SCM associa os dados ao ID do alvo, grava o status como &quot;realizada&quot; e repete o processo para o resto dos alvos da lista" vertex="1">
+          <mxGeometry height="30" width="560" x="40" y="342" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-20" parent="RFl-qjHHv4bRQcML9S2N-32" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="O SCM envia comandos de movimento pro motor guiando o robô até a base de recarga, envia alertas de conclusão ao controlador da missão e envia os dados dos alvos pro agrônomo" vertex="1">
+          <mxGeometry height="50" width="560" x="40" y="372" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-22" parent="RFl-qjHHv4bRQcML9S2N-32" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;[Passos do Cenário]&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="600" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-23" parent="RFl-qjHHv4bRQcML9S2N-32" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="1" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-24" parent="RFl-qjHHv4bRQcML9S2N-32" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="2" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-25" parent="RFl-qjHHv4bRQcML9S2N-32" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="3" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="246" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-26" parent="RFl-qjHHv4bRQcML9S2N-32" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="5" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-27" parent="RFl-qjHHv4bRQcML9S2N-32" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="4" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-28" parent="RFl-qjHHv4bRQcML9S2N-32" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="6" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-29" parent="RFl-qjHHv4bRQcML9S2N-32" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="7" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="386" as="geometry" />
+        </mxCell>
+        <mxCell id="ba6N8Kydh0K5UVhQg-y9-2" parent="RFl-qjHHv4bRQcML9S2N-32" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;DS 1 - Missão de monitoramento de rotina concluída com sucesso&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="600" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-33" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="500" width="700" x="20" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-34" parent="RFl-qjHHv4bRQcML9S2N-33" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#49617D,#97A6B5);strokeColor=#93C5FD;" value="" vertex="1">
+          <mxGeometry height="110" width="230" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-35" parent="RFl-qjHHv4bRQcML9S2N-33" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=light-dark(transparent,#A9BBCC);align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;[Contexto]&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;O robô está se deslocando com auxílio do GPS em direção ao alvo obrigatório 4" vertex="1">
+          <mxGeometry height="110" width="230" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-36" parent="RFl-qjHHv4bRQcML9S2N-33" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6A917D;strokeColor=#86EFAC;" value="" vertex="1">
+          <mxGeometry height="110" width="170" x="230" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-37" parent="RFl-qjHHv4bRQcML9S2N-33" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;[Atores]&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font&gt;SCM, GPS, Motores, Sensores de obstáculo, Operador de campo e Controlador da missão&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="170" x="230" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-38" parent="RFl-qjHHv4bRQcML9S2N-33" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6A917D;strokeColor=#86EFAC;" value="" vertex="1">
+          <mxGeometry height="110" width="200" x="400" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-39" parent="RFl-qjHHv4bRQcML9S2N-33" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#2B579A);" value="" vertex="1">
+          <mxGeometry height="40" width="600" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-40" parent="RFl-qjHHv4bRQcML9S2N-33" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-weight: bold; font-size: 14px;&quot;&gt;[Objetos do mundo]&lt;br&gt;&lt;/font&gt;&lt;font&gt;posição atual, comandos de movimento, obstáculo detectado, pedidos de ajuda, intervenção em campo e alertas&lt;/font&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="110" width="200" x="400" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-41" parent="RFl-qjHHv4bRQcML9S2N-33" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FAFAFA,#FFFFFF);strokeColor=light-dark(#000000,#D1D5DB);" value="" vertex="1">
+          <mxGeometry height="340" width="600" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-42" parent="RFl-qjHHv4bRQcML9S2N-33" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="O SCM recebe a posição atual do GPS e envia comandos de movimento aos motores para aproximar o robô do alvo 4" vertex="1">
+          <mxGeometry height="30" width="540" x="40" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-43" parent="RFl-qjHHv4bRQcML9S2N-33" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="Os sensores de obstáculo detectam algo bloqueando o caminho e enviam o sinal de obstáculo detectado pro SCM" vertex="1">
+          <mxGeometry height="30" width="560" x="40" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-44" parent="RFl-qjHHv4bRQcML9S2N-33" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="O SCM calcula uma nova rota e envia novos comandos de movimento pros motores" vertex="1">
+          <mxGeometry height="30" width="560" x="40" y="254" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-45" parent="RFl-qjHHv4bRQcML9S2N-33" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="Os sensores de obstáculo identificam que a nova posição também está bloqueada por um obstáculo" vertex="1">
+          <mxGeometry height="30" width="560" x="40" y="284" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-46" parent="RFl-qjHHv4bRQcML9S2N-33" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="O SCM registra o alvo 4 no log da missão como &quot;inacessível&quot;" vertex="1">
+          <mxGeometry height="30" width="560" x="40" y="316" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-47" parent="RFl-qjHHv4bRQcML9S2N-33" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="O SCM transmite alertas ao controlador da missão e envia pedidos de ajuda ao operador de campo" vertex="1">
+          <mxGeometry height="30" width="560" x="40" y="352" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-48" parent="RFl-qjHHv4bRQcML9S2N-33" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="O SCM envia comandos de movimento pros motores e continua a navegação em direção ao alvo 5" vertex="1">
+          <mxGeometry height="50" width="560" x="40" y="378" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-49" parent="RFl-qjHHv4bRQcML9S2N-33" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;[Passos do Cenário]&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="600" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-50" parent="RFl-qjHHv4bRQcML9S2N-33" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="1" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-51" parent="RFl-qjHHv4bRQcML9S2N-33" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="2" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="224" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-52" parent="RFl-qjHHv4bRQcML9S2N-33" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="3" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-53" parent="RFl-qjHHv4bRQcML9S2N-33" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="5" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-54" parent="RFl-qjHHv4bRQcML9S2N-33" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="4" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="288" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-55" parent="RFl-qjHHv4bRQcML9S2N-33" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="6" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="356" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-56" parent="RFl-qjHHv4bRQcML9S2N-33" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="7" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="392" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-57" parent="RFl-qjHHv4bRQcML9S2N-33" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;DS 3- Tratamento de alvo inacessível e solicitação de ajuda em campo&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="600" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-136" parent="RFl-qjHHv4bRQcML9S2N-33" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="O operador de campo realiza a intervenção em campo, enquanto o robô segue executando a coleta de dados no alvo 5" vertex="1">
+          <mxGeometry height="50" width="560" x="40" y="416" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-137" parent="RFl-qjHHv4bRQcML9S2N-33" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="8" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-58" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="490" width="600" x="20" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-59" parent="RFl-qjHHv4bRQcML9S2N-58" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#49617D,#97A6B5);strokeColor=#93C5FD;" value="" vertex="1">
+          <mxGeometry height="110" width="230" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-60" parent="RFl-qjHHv4bRQcML9S2N-58" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=light-dark(transparent,#A9BBCC);align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;[Contexto]&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;O robô está se deslocando entre o alvo 6 e o alvo 7, com 50% da missão concluída e 25% de bateria restante" vertex="1">
+          <mxGeometry height="110" width="230" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-61" parent="RFl-qjHHv4bRQcML9S2N-58" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6A917D;strokeColor=#86EFAC;" value="" vertex="1">
+          <mxGeometry height="110" width="170" x="230" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-62" parent="RFl-qjHHv4bRQcML9S2N-58" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;[Atores]&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font&gt;SCM, Bateria, GPS, Motores, Base de recarga e Controlador da missão&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="170" x="230" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-63" parent="RFl-qjHHv4bRQcML9S2N-58" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6A917D;strokeColor=#86EFAC;" value="" vertex="1">
+          <mxGeometry height="110" width="200" x="400" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-64" parent="RFl-qjHHv4bRQcML9S2N-58" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#2B579A);" value="" vertex="1">
+          <mxGeometry height="40" width="600" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-65" parent="RFl-qjHHv4bRQcML9S2N-58" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-weight: bold; font-size: 14px;&quot;&gt;[Objetos do mundo]&lt;br&gt;&lt;/font&gt;&lt;font&gt;nível de carga, posição atual, comandos de movimento, estado salvo da missão e alertas&lt;/font&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="110" width="200" x="400" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-66" parent="RFl-qjHHv4bRQcML9S2N-58" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FAFAFA,#FFFFFF);strokeColor=light-dark(#000000,#D1D5DB);" value="" vertex="1">
+          <mxGeometry height="320" width="600" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-67" parent="RFl-qjHHv4bRQcML9S2N-58" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="A bateria informa o nível de carga atual pro SCM" vertex="1">
+          <mxGeometry height="30" width="415" x="40" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-68" parent="RFl-qjHHv4bRQcML9S2N-58" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="O SCM identifica que a bateria atingiu o limite definido para o retorno seguro" vertex="1">
+          <mxGeometry height="30" width="560" x="40" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-69" parent="RFl-qjHHv4bRQcML9S2N-58" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="O SCM salva o estado atual da missão no log" vertex="1">
+          <mxGeometry height="30" width="560" x="40" y="242" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-70" parent="RFl-qjHHv4bRQcML9S2N-58" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="O SCM envia alertas ao controlador da missão, informando: &quot;Missão suspensa: iniciando retorno automático por bateria baixa&quot;" vertex="1">
+          <mxGeometry height="30" width="560" x="40" y="274" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-71" parent="RFl-qjHHv4bRQcML9S2N-58" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="O SCM consulta o GPS e envia comandos de movimento aos motores direcionando o robô até a base de recarga" vertex="1">
+          <mxGeometry height="30" width="560" x="40" y="312" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-72" parent="RFl-qjHHv4bRQcML9S2N-58" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="O robô se conecta na base de recarga, e carrega a bateria até atingir 100%" vertex="1">
+          <mxGeometry height="30" width="560" x="40" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-73" parent="RFl-qjHHv4bRQcML9S2N-58" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="O SCM identifica a carga completa, retoma o estado salvo e envia alertas ao controlador da missão sobre a retomada" vertex="1">
+          <mxGeometry height="50" width="560" x="40" y="372" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-74" parent="RFl-qjHHv4bRQcML9S2N-58" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;[Passos do Cenário]&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="600" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-75" parent="RFl-qjHHv4bRQcML9S2N-58" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="1" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-76" parent="RFl-qjHHv4bRQcML9S2N-58" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="2" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-77" parent="RFl-qjHHv4bRQcML9S2N-58" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="3" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="246" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-78" parent="RFl-qjHHv4bRQcML9S2N-58" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="5" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="316" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-79" parent="RFl-qjHHv4bRQcML9S2N-58" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="4" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-80" parent="RFl-qjHHv4bRQcML9S2N-58" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="6" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-81" parent="RFl-qjHHv4bRQcML9S2N-58" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="7" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="386" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-82" parent="RFl-qjHHv4bRQcML9S2N-58" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;DS 5 - Interrupção por bateria baixa, retorno automático e retomada da missão&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="600" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-145" parent="RFl-qjHHv4bRQcML9S2N-58" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="O SCM envia comandos de movimento aos motores para levar o robô pro alvo 7 e terminar a coleta dos alvos restantes" vertex="1">
+          <mxGeometry height="50" width="560" x="40" y="412" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-146" parent="RFl-qjHHv4bRQcML9S2N-58" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="8" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="426" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-83" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="440" width="600" x="641" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-84" parent="RFl-qjHHv4bRQcML9S2N-83" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#49617D,#97A6B5);strokeColor=#93C5FD;" value="" vertex="1">
+          <mxGeometry height="110" width="230" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-85" parent="RFl-qjHHv4bRQcML9S2N-83" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=light-dark(transparent,#A9BBCC);align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;[Contexto]&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;O robô está parado no ponto de partida.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;O nível da bateria está em 30%&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="230" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-86" parent="RFl-qjHHv4bRQcML9S2N-83" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6A917D;strokeColor=#86EFAC;" value="" vertex="1">
+          <mxGeometry height="110" width="170" x="230" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-87" parent="RFl-qjHHv4bRQcML9S2N-83" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;[Atores]&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Controlador da missão, SCM, Bateria, Drone, GPS&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="170" x="230" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-88" parent="RFl-qjHHv4bRQcML9S2N-83" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6A917D;strokeColor=#86EFAC;" value="" vertex="1">
+          <mxGeometry height="110" width="200" x="400" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-89" parent="RFl-qjHHv4bRQcML9S2N-83" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#2B579A);" value="" vertex="1">
+          <mxGeometry height="40" width="600" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-90" parent="RFl-qjHHv4bRQcML9S2N-83" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-weight: bold; font-size: 14px;&quot;&gt;[Objetos do mundo]&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;configuração e lista de alvos, nível de carga, topologia do local, posilção atual, alertas&lt;/font&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="110" width="200" x="400" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-91" parent="RFl-qjHHv4bRQcML9S2N-83" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FAFAFA,#FFFFFF);strokeColor=light-dark(#000000,#D1D5DB);" value="" vertex="1">
+          <mxGeometry height="290" width="600" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-92" parent="RFl-qjHHv4bRQcML9S2N-83" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="O Controlador da missão envia a configuração e comandos carregando uma lista longa de alvos" vertex="1">
+          <mxGeometry height="30" width="530" x="40" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-93" parent="RFl-qjHHv4bRQcML9S2N-83" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="O SCM consulta a bateria e recebe o nível de carga atual" vertex="1">
+          <mxGeometry height="30" width="560" x="40" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-94" parent="RFl-qjHHv4bRQcML9S2N-83" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="O SCM verifica a posição atual no GPS e recebe a topologia do local do drone" vertex="1">
+          <mxGeometry height="30" width="560" x="40" y="242" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-95" parent="RFl-qjHHv4bRQcML9S2N-83" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="O SCM calcula a distância total do trajeto identifica que o consumo de energia estimado será maior que carga disponível" vertex="1">
+          <mxGeometry height="30" width="560" x="40" y="274" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-96" parent="RFl-qjHHv4bRQcML9S2N-83" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="&lt;div&gt;O SCM bloqueia a a trasmissão de comandos pros motores&lt;/div&gt;" vertex="1">
+          <mxGeometry height="22" width="560" x="39" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-97" parent="RFl-qjHHv4bRQcML9S2N-83" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="O SCM envia alertas pro controlador da missão, informando: &quot;Missão não iniciada: bateria insuficiente pra lista de alvos atual&quot;" vertex="1">
+          <mxGeometry height="30" width="560" x="40" y="342" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-98" parent="RFl-qjHHv4bRQcML9S2N-83" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="O controlador da missão ajusta a lista de alvos ou encaminha o robô para a base de recarga" vertex="1">
+          <mxGeometry height="50" width="560" x="40" y="372" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-99" parent="RFl-qjHHv4bRQcML9S2N-83" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;[Passos do Cenário]&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="600" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-100" parent="RFl-qjHHv4bRQcML9S2N-83" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="1" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-101" parent="RFl-qjHHv4bRQcML9S2N-83" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="2" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-102" parent="RFl-qjHHv4bRQcML9S2N-83" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="3" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="247" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-103" parent="RFl-qjHHv4bRQcML9S2N-83" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="5" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-104" parent="RFl-qjHHv4bRQcML9S2N-83" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="4" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="279" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-105" parent="RFl-qjHHv4bRQcML9S2N-83" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="6" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-106" parent="RFl-qjHHv4bRQcML9S2N-83" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="7" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="386" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-107" parent="RFl-qjHHv4bRQcML9S2N-83" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;DS 2 - Cancelamento do início da missão por bateria insuficiente&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="600" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-108" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="500" width="600" x="641" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-109" parent="RFl-qjHHv4bRQcML9S2N-108" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#49617D,#97A6B5);strokeColor=#93C5FD;" value="" vertex="1">
+          <mxGeometry height="110" width="230" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-110" parent="RFl-qjHHv4bRQcML9S2N-108" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=light-dark(transparent,#A9BBCC);align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;[Contexto]&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;O robô está nas coordenadas do alvo 2" vertex="1">
+          <mxGeometry height="110" width="230" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-111" parent="RFl-qjHHv4bRQcML9S2N-108" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6A917D;strokeColor=#86EFAC;" value="" vertex="1">
+          <mxGeometry height="110" width="170" x="230" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-112" parent="RFl-qjHHv4bRQcML9S2N-108" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;[&lt;/font&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Atores&lt;/font&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;]&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font&gt;SCM, Sensores de coleta e controlador da missão&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="170" x="230" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-113" parent="RFl-qjHHv4bRQcML9S2N-108" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6A917D;strokeColor=#86EFAC;" value="" vertex="1">
+          <mxGeometry height="110" width="200" x="400" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-114" parent="RFl-qjHHv4bRQcML9S2N-108" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#2B579A);" value="" vertex="1">
+          <mxGeometry height="40" width="600" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-115" parent="RFl-qjHHv4bRQcML9S2N-108" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-weight: bold; font-size: 14px;&quot;&gt;[Objetos do mundo]&lt;br&gt;&lt;/font&gt;&lt;font&gt;comando de coleta, dados de coleta, parâmetros dos sensores e alertas&lt;/font&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="110" width="200" x="400" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-116" parent="RFl-qjHHv4bRQcML9S2N-108" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FAFAFA,#FFFFFF);strokeColor=light-dark(#000000,#D1D5DB);" value="" vertex="1">
+          <mxGeometry height="330" width="600" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-117" parent="RFl-qjHHv4bRQcML9S2N-108" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="O SCM envia o comando de coleta inicial pros sensores de coleta" vertex="1">
+          <mxGeometry height="30" width="415" x="40" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-118" parent="RFl-qjHHv4bRQcML9S2N-108" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="Os sensores de coleta capturam a imagem e enviam os dados de coleta pro SCM" vertex="1">
+          <mxGeometry height="30" width="560" x="40" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-119" parent="RFl-qjHHv4bRQcML9S2N-108" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="O SCM analisa os dados e identifica que a qualidade está abaixo do esperado" vertex="1">
+          <mxGeometry height="30" width="560" x="40" y="242" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-120" parent="RFl-qjHHv4bRQcML9S2N-108" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="O SCM ajusta automaticamente os parâmetros dos sensores" vertex="1">
+          <mxGeometry height="30" width="560" x="40" y="274" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-121" parent="RFl-qjHHv4bRQcML9S2N-108" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="O SCM envia um segundo comando de coleta" vertex="1">
+          <mxGeometry height="30" width="560" x="40" y="306" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-122" parent="RFl-qjHHv4bRQcML9S2N-108" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="Os sensores de coleta fazem a nova captura e enviam os dados pro SCM" vertex="1">
+          <mxGeometry height="30" width="560" x="40" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-123" parent="RFl-qjHHv4bRQcML9S2N-108" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="O SCM analisa a nova imagem e confirma que ela atingiu a qualidade mínima configurada" vertex="1">
+          <mxGeometry height="40" width="560" x="40" y="368" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-124" parent="RFl-qjHHv4bRQcML9S2N-108" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;[Passos do Cenário]&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="600" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-125" parent="RFl-qjHHv4bRQcML9S2N-108" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="1" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-126" parent="RFl-qjHHv4bRQcML9S2N-108" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="2" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-127" parent="RFl-qjHHv4bRQcML9S2N-108" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="3" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="246" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-128" parent="RFl-qjHHv4bRQcML9S2N-108" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="5" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-129" parent="RFl-qjHHv4bRQcML9S2N-108" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="4" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-130" parent="RFl-qjHHv4bRQcML9S2N-108" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="6" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="342" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-131" parent="RFl-qjHHv4bRQcML9S2N-108" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="7" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="377" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-132" parent="RFl-qjHHv4bRQcML9S2N-108" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;DS 4 - Avaliação da qualidade dos dados e nova coleta com ajuste de parâmetros&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="600" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-141" parent="RFl-qjHHv4bRQcML9S2N-108" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="O SCM associa os dados aprovados ao alvo 2 e registra a coleta como &quot;realizada&quot;" vertex="1">
+          <mxGeometry height="40" width="560" x="40" y="399" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-142" parent="RFl-qjHHv4bRQcML9S2N-108" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="8" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="408" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-143" parent="RFl-qjHHv4bRQcML9S2N-108" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="O SCM envia alertas ao controlador da missão informando que a nova coleta foi realizada com sucesso" vertex="1">
+          <mxGeometry height="40" width="560" x="40" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="RFl-qjHHv4bRQcML9S2N-144" parent="RFl-qjHHv4bRQcML9S2N-108" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#2B579A,#2B579A);" value="9" vertex="1">
+          <mxGeometry height="22" width="22" x="10" y="439" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
